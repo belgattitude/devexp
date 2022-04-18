@@ -2,8 +2,7 @@
 
 # About
 
-Custom composable eslint config bases that can be easily shared and fine-tuned by apps and
-packages that lives in the [monorepo](https://github.com/belgattitude/profile).
+My opinionated eslint config starter on https://github.com/belgattitude/devexp.
 
 ## Features
 
@@ -16,15 +15,12 @@ packages that lives in the [monorepo](https://github.com/belgattitude/profile).
 ## Install
 
 ```bash
-$ yarn add --dev eslint @belgattitude/eslint-config-bases:"workspace:^"
+$ yarn add --dev eslint @belgattitude/eslint-config-bases
 ```
-
-> **Tip** the [workspace:^](https://yarnpkg.com/features/workspaces#workspace-ranges-workspace) is supported by yarn and pnpm.
 
 ## Usage
 
-In your app or package, create an `./apps/my-app/.eslintrc.js` file that extends any of the
-existing base configs. For example:
+Create an `.eslintrc.js` file that extends any of the existing base configs. For example:
 
 ```javascript
 module.exports = {
@@ -60,7 +56,7 @@ module.exports = {
 };
 ```
 
-> **Tip:** "@your-org/eslint-config-bases/prettier" must be set at the end to disable any
+> **Tip:** "@belgattitude/eslint-config-bases/prettier" must be set at the end to disable any
 > conflicting rules.
 
 ## Bases
