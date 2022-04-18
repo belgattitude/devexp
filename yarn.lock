@@ -1750,6 +1750,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"belgattitude-devexp-monorepo@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "belgattitude-devexp-monorepo@workspace:."
+  dependencies:
+    "@belgattitude/eslint-config-bases": "workspace:^"
+    "@changesets/changelog-github": "npm:0.4.4"
+    "@changesets/cli": "npm:2.22.0"
+    "@commitlint/cli": "npm:16.2.3"
+    "@commitlint/config-conventional": "npm:16.2.1"
+    "@types/prettier": "npm:2.6.0"
+    "@types/shell-quote": "npm:1.7.1"
+    cross-env: "npm:7.0.3"
+    eslint: "npm:8.13.0"
+    husky: "npm:7.0.4"
+    is-ci: "npm:3.0.1"
+    lint-staged: "npm:12.3.8"
+    npm-run-all: "npm:4.1.5"
+    prettier: "npm:2.6.2"
+    rimraf: "npm:3.0.2"
+    shell-quote: "npm:1.7.3"
+    typescript: "npm:4.6.3"
+  languageName: unknown
+  linkType: soft
+
 "better-path-resolve@npm:1.0.0":
   version: 1.0.0
   resolution: "better-path-resolve@npm:1.0.0"
@@ -4311,30 +4335,6 @@ __metadata:
   checksum: cf6f4ccd700fbeaae533f0821e4de8582e340f9b0324f1e6d2486484e44a64f95acf7c7e5ef274f963934d5b74c3716c8ae58e367e112effae95d8d021158bff
   languageName: node
   linkType: hard
-
-"nextjs-monorepo-example@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "nextjs-monorepo-example@workspace:."
-  dependencies:
-    "@belgattitude/eslint-config-bases": "workspace:^"
-    "@changesets/changelog-github": "npm:0.4.4"
-    "@changesets/cli": "npm:2.22.0"
-    "@commitlint/cli": "npm:16.2.3"
-    "@commitlint/config-conventional": "npm:16.2.1"
-    "@types/prettier": "npm:2.6.0"
-    "@types/shell-quote": "npm:1.7.1"
-    cross-env: "npm:7.0.3"
-    eslint: "npm:8.13.0"
-    husky: "npm:7.0.4"
-    is-ci: "npm:3.0.1"
-    lint-staged: "npm:12.3.8"
-    npm-run-all: "npm:4.1.5"
-    prettier: "npm:2.6.2"
-    rimraf: "npm:3.0.2"
-    shell-quote: "npm:1.7.3"
-    typescript: "npm:4.6.3"
-  languageName: unknown
-  linkType: soft
 
 "nice-try@npm:^1.0.4":
   version: 1.0.5
