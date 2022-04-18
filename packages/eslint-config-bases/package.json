@@ -2,7 +2,6 @@
   "name": "@belgattitude/eslint-config-bases",
   "version": "1.2.0",
   "license": "MIT",
-  "private": true,
   "homepage": "https://github.com/belgattitude/devexp",
   "repository": {
     "type": "git",
